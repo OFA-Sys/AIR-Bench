@@ -13,7 +13,12 @@ We provide a script that can batch call GPT, you only need to do one thing: repl
 
 `python align_in_foundation.py`
 
-### Calculate accuracy
-`python cal_acc.py`
+### Calculate score on Foundation Benchmark
+`python score_foundation.py`
 
+## Step2: Evaluate on Chat Benchmark
+### Inference your model on Chat Benchmark
+`python Inference_Chat.py`
+### Calculate score on Chat Benchmark
+`python score_chat.py`
 
