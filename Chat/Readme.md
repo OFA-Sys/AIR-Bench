@@ -1,1 +1,1 @@
-download link 参考MME ： https://github.com/QwenLM/Qwen-VL/blob/master/eval_mm/mme/EVAL_MME.md
+download link 参考MME ： https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/blob/Evaluation/README.md
