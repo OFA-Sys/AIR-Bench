@@ -2,8 +2,11 @@
 official repository of [AIR-Bench: Benchmarking Large Audio-Language Models via Generative Comprehension](https://arxiv.org/pdf/2402.07729.pdf)
 ![](Images/main_figure.png "The overview of AIR-Bench.")
 
+# Overview of Benchmark and Model Response
+![](Images/Foundation_Example.png "The overview of Foundation.") 
+![](Images/Chat_Example.png "The overview of Chat.") 
 
-# Download Benchmark
+
 
 # Easy Evaluation
 ## Step1: Evaluate on Foundation Benchmark
