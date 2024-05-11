@@ -10,7 +10,7 @@ import json
 from tqdm import tqdm
 import shutil
 
-data_path_root = 'Foundation'  #where you download our Foundation benchmark
+data_path_root = '/Foundation'  #Foundation dataset Path
 input_file = f'{data_path_root}/Foundation_meta.json'
 output_file = 'Foundation_result_modelx.jsonl'
 
@@ -54,15 +54,9 @@ def main():
             #    Audio_path=data_path,
             #    ...
             #)
-            
-            #target_pth = f'{data_path_root}/{task_name}_{dataset_name}'
-            #file_name = data_path.split('/')[-1]
-            #os.makedirs(target_pth, exist_ok=True)
-            #shutil.copy(data_path, f'{target_pth}/{file_name}')
-
-
-            
             output = 'A.'
+
+
             #Step 4: save result
             json_string = json.dumps(
                 {
