@@ -10,7 +10,7 @@ import json
 from tqdm import tqdm
 import shutil
 
-data_path_root = '../AIR-Bench-dataset/Chat'  #Chat dataset path
+data_path_root = '/Chat'  #Chat dataset path
 input_file = f'{data_path_root}/Chat_meta.json'
 output_file = 'Chat_result_modelx.jsonl'
 
