@@ -10,7 +10,7 @@ import json
 from tqdm import tqdm
 import shutil
 
-data_path_root = 'Chat'  #where you download our Chat benchmark
+data_path_root = '../AIR-Bench-dataset/Chat'  #Chat dataset path
 input_file = f'{data_path_root}/Chat_meta.json'
 output_file = 'Chat_result_modelx.jsonl'
 
@@ -26,7 +26,7 @@ def main():
             wav = item['path']
             task_name = item['task_name']
             dataset_name = item['dataset_name']
-            data_path = wav_fn = f'../level-3/wav-v1/{task_name}_{dataset_name}/{wav}'
+            data_path = wav_fn = f'{data_path_root}/{task_name}_{dataset_name}/{wav}'
             if os.path.exists(wav_fn) == False:
                 print(f"lack wav {wav_fn}")
                 continue
@@ -43,13 +43,8 @@ def main():
             #    Audio_path=data_path,
             #    ...
             #)
-            
-            target_pth = f'{data_path_root}/{task_name}_{dataset_name}'
-            file_name = data_path.split('/')[-1]
-            os.makedirs(target_pth, exist_ok=True)
-            shutil.copy(data_path, f'{target_pth}/{file_name}')
-            
             output = 'A.'
+
             #Step 4: save result
             json_string = json.dumps(
                 {
