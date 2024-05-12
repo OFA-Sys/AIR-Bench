@@ -18,7 +18,7 @@ AIR-Bench encompasses two dimensions: ***foundation*** and ***chat*** benchmarks
 
 
 # Download AIR-Bench
-Download link: https://huggingface.co/datasets/qyang1021/AIR-Bench-Dataset
+You can download the data of AIR-Bench(including ***foundation*** and ***chat***) released on HuggingFace repo: https://huggingface.co/datasets/qyang1021/AIR-Bench-Dataset
 
 # Easy Evaluation
 ## Step1: Evaluate on Foundation Benchmark
