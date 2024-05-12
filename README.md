@@ -3,7 +3,7 @@ Official repository of AIR-Bench: Benchmarking Large Audio-Language Models via G
 [Arxiv link](https://arxiv.org/pdf/2402.07729.pdf)
 
 <figure>
-    <img src="Images/main_figure.png" width="80%">  
+    <img src="Images/main_figure.png" width="60%">  
 </figure>
 
 
@@ -12,9 +12,9 @@ AIR-Bench (Audio InstRuction Benchmark) is the ***First*** benchmark designed to
 AIR-Bench encompasses two dimensions: ***foundation*** and ***chat*** benchmarks. The former consists of 19 tasks with approximately ***19k*** single-choice questions. The latter one contains ***2k*** instances of open-ended question-and-answer data.
 
 # Overview of LALM Response  
-<img src="Images/Foundation_Example.png" width="80%">
+<img src="Images/Foundation_Example.png" width="60%">
 
-<img src="Images/Chat_Example.png" width="80%">
+<img src="Images/Chat_Example.png" width="60%">
 
 
 # Download AIR-Bench
