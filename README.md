@@ -1,12 +1,24 @@
 # AIR-Bench: Benchmarking Large Audio-Language Models via Generative Comprehension
-official repository of [AIR-Bench: Benchmarking Large Audio-Language Models via Generative Comprehension](https://arxiv.org/pdf/2402.07729.pdf)
-![](Images/main_figure.png "The overview of AIR-Bench.")
+Official repository of AIR-Bench: Benchmarking Large Audio-Language Models via Generative Comprehension  
+[Arxiv link](https://arxiv.org/pdf/2402.07729.pdf)
 
-# Overview of Benchmark and Model Response
-![](Images/Foundation_Example.png "The overview of Foundation.") 
-![](Images/Chat_Example.png "The overview of Chat.") 
+<figure>
+    <img src="Images/main_figure.png" width="80%">  
+</figure>
 
 
+AIR-Bench (Audio InstRuction Benchmark) is the ***First*** benchmark designed to evaluate the ability of LALMs to understand various types of audio signals (including human speech, natural sounds and music), and furthermore, to interact with humans in textual format. 
+
+AIR-Bench encompasses two dimensions: ***foundation*** and ***chat*** benchmarks. The former consists of 19 tasks with approximately ***19k*** single-choice questions. The latter one contains ***2k*** instances of open-ended question-and-answer data.
+
+# Overview of LALM Response  
+<img src="Images/Foundation_Example.png" width="80%">
+
+<img src="Images/Chat_Example.png" width="80%">
+
+
+# Download AIR-Bench
+Download link: https://huggingface.co/datasets/qyang1021/AIR-Bench-Dataset
 
 # Easy Evaluation
 ## Step1: Evaluate on Foundation Benchmark
@@ -26,4 +38,14 @@ We provide a script that can batch call GPT, you only need to do one thing: repl
 `python Inference_Chat.py`
 ### Calculate score on Chat Benchmark
 `python score_chat.py`
+
+# Citing
+If you find this repository helpful, please consider citing it:  
+
+> @article{yang2024air,
+  title={AIR-Bench: Benchmarking Large Audio-Language Models via Generative Comprehension},
+  author={Yang, Qian and Xu, Jin and Liu, Wenrui and Chu, Yunfei and Jiang, Ziyue and Zhou, Xiaohuan and Leng, Yichong and Lv, Yuanjun and Zhao, Zhou and Zhou, Chang and others},
+  journal={arXiv preprint arXiv:2402.07729},
+  year={2024}
+}
 
