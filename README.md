@@ -18,17 +18,17 @@ AIR-Bench encompasses two dimensions: ***foundation*** and ***chat*** benchmarks
 
 # LeaderBoard
 - We are eagerly looking forward to evaluating **gpt4o**（after the audio interface is made available).     
-| Rank | Models | Speech | Sound | Music | Mixed Audio | Average |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 🏅 | Qwen-Audio-Turbo | 7.04 | 6.59 | **5.98** | 5.77 | **6.34** |
-| 🥈 | SALMONN | 6.16 | 6.28 | 5.95 | 6.08 | 6.11 |
-| 🥉 | Qwen-Audio | 6.47 | **6.95** | 5.52 | 5.38 | 6.08 |
-| 4 | BLSP | 6.17 | 5.55 | 5.08 | 4.52 | 5.33 |
-| 5 | Pandagpt | 3.58 | 5.46 | 5.06 | 2.93 | 4.25 |
-| 6 | Next-gpt | 3.86 | 4.76 | 4.18 | 2.92 | 4.13 |
-| 7 | SpeechGPT | 1.57 | 0.95 | 0.95 | 1.14 | 1.15 |
-| 8 | Macaw-LLM | 0.97 | 1.01 | 0.91 | 1.00 | 1.01 |
-|  | Whisper+GPT 4 | **7.54** | / | / | / | / |
+| Rank | Categories       | Speech | Sound | Music  | Mixed Audio | Average |
+|------|------------------|--------|-------|--------|-------------|---------|
+| 🏅   | Qwen-Audio-Turbo | 7.04   | 6.59  | **5.98** | 5.77        | **6.34**|
+| 🥈   | SALMONN          | 6.16   | 6.28  | 5.95   | 6.08        | 6.11    |
+| 🥉   | Qwen-Audio       | 6.47   | **6.95** | 5.52   | 5.38        | 6.08    |
+| 4    | BLSP             | 6.17   | 5.55  | 5.08   | 4.52        | 5.33    |
+| 5    | Pandagpt         | 3.58   | 5.46  | 5.06   | 2.93        | 4.25    |
+| 6    | Next-gpt         | 3.86   | 4.76  | 4.18   | 2.92        | 4.13    |
+| 7    | SpeechGPT        | 1.57   | 0.95  | 0.95   | 1.14        | 1.15    |
+| 8    | Macaw-LLM        | 0.97   | 1.01  | 0.91   | 1.00        | 1.01    |
+|      | Whisper+GPT 4    | **7.54** | /    | /      | /           | /       |
 
 # Download AIR-Bench
 Please refer to the issue.
