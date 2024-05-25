@@ -31,7 +31,29 @@ AIR-Bench encompasses two dimensions: ***foundation*** and ***chat*** benchmarks
 | 8    | Macaw-LLM        | 0.97   | 1.01  | 0.91   | 1.00        | 1.01    |
 |      | Whisper+GPT 4    | **7.54** | /    | /      | /           | /       |
 ## Foundation Leaderboard
-
+|            Categories            | Qwen-Audio-Turbo | Qwen-Audio | Pandagpt | SALMONN | Next-gpt |  BLSP | SpeechGPT | Whisper+GPT 4 |
+|:--------------------------------:|:----------------:|:----------:|:--------:|:-------:|:--------:|:-----:|:---------:|:-------------:|
+|               Rank               |         🏅        |      🥈     |     🥉    |    4    |     5    |   6   |     7     |       /       |
+|         Speech grounding         |       45.4%      |    56.1%   |   23.0%  |  25.3%  |   25.4%  | 25.0% |   28.8%   |     35.0%     |
+|  Spoken language identification  |       95.9%      |    92.8%   |   34.6%  |  28.1%  |   23.7%  | 30.8% |   39.6%   |     96.8%     |
+|    Speaker gender recognition    |       82.5%      |    67.2%   |   66.5%  |  35.5%  |   57.0%  | 33.2% |   29.2%   |     21.9%     |
+|        Emotion recognition       |       60.0%      |    43.2%   |   26.0%  |  29.9%  |   25.7%  | 27.4% |   37.6%   |     59.5%     |
+|      Speaker age prediction      |       58.8%      |    36.0%   |   42.5%  |  48.7%  |   62.4%  | 51.2% |   20.4%   |     41.1%     |
+|     Speech entity recognition    |       48.1%      |    71.2%   |   34.0%  |  51.7%  |   26.1%  | 37.2% |   35.9%   |     69.8%     |
+|       Intent classification      |       56.4%      |    77.8%   |   28.5%  |  36.7%  |   25.6%  | 46.6% |   45.8%   |     87.7%     |
+|   Speaker number  verification   |       54.3%      |    35.3%   |   43.2%  |  34.3%  |   25.4%  | 28.1% |   32.6%   |     30.0%     |
+|    Synthesized voice detection   |       69.3%      |    48.3%   |   53.1%  |  50.0%  |   30.8%  | 50.0% |   39.2%   |     40.5%     |
+|          Audio grounding         |       41.6%      |    23.9%   |   38.3%  |  24.0%  |   62.2%  | 34.6% |   26.1%   |       /       |
+|    Vocal sound classification    |       78.1%      |    84.9%   |   31.6%  |  45.3%  |   23.5%  | 29.8% |   26.2%   |       /       |
+|   Acoustic scene classification  |       61.3%      |    67.5%   |   55.7%  |  34.1%  |   24.1%  | 25.2% |   23.7%   |       /       |
+|     Sound question answering     |       62.8%      |    64.6%   |   48.7%  |  28.4%  |   18.8%  | 36.1% |   33.9%   |       /       |
+| Music instruments classification |       59.6%      |    59.1%   |   47.7%  |  41.3%  |   24.3%  | 22.8% |   29.1%   |       /       |
+|    Music genre  classfication    |       77.1%      |    71.2%   |   39.8%  |  45.3%  |   28.1%  | 26.1% |   29.3%   |       /       |
+|    Music note  analysis-pitch    |       30.1%      |    28.6%   |   26.4%  |  26.4%  |   25.1%  | 23.5% |   24.1%   |       /       |
+|   Music note analysis-velocity   |       25.1%      |    25.4%   |   27.2%  |  22.8%  |   23.1%  | 24.9% |   25.2%   |       /       |
+|     Music question  answering    |       62.5%      |    48.2%   |   50.7%  |  54.6%  |   47.1%  | 31.0% |   31.3%   |       /       |
+|      Music emotion detection     |       39.0%      |    36.1%   |   36.7%  |  32.2%  |   25.4%  | 28.3% |   29.7%   |       /       |
+|              Average             |       57.8%      |    54.5%   |   40.2%  |  36.0%  |   31.5%  | 31.4% |   30.0%   |       /       |
 
 # Download AIR-Bench
 Please refer to the issue.
