@@ -18,8 +18,8 @@ AIR-Bench encompasses two dimensions: ***foundation*** and ***chat*** benchmarks
 
 # LeaderBoard
 - We are eagerly looking forward to evaluating **gpt4o**（after the audio interface is made available).     
-| Rank | Categories | Speech | Sound | Music | Mixed Audio | Average |
-|---|:---:|:---:|---|---|---|---|
+| Rank | Models | Speech | Sound | Music | Mixed Audio | Average |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 🏅 | Qwen-Audio-Turbo | 7.04 | 6.59 | **5.98** | 5.77 | **6.34** |
 | 🥈 | SALMONN | 6.16 | 6.28 | 5.95 | 6.08 | 6.11 |
 | 🥉 | Qwen-Audio | 6.47 | **6.95** | 5.52 | 5.38 | 6.08 |
