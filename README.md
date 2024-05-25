@@ -1,6 +1,6 @@
 # AIR-Bench: Benchmarking Large Audio-Language Models via Generative Comprehension
 [Arxiv link](https://arxiv.org/pdf/2402.07729.pdf) https://arxiv.org/pdf/2402.07729.pdf   
-[ACL 2024 Main conference] Awaiting the release of the camera-ready version of PDF.
+[**ACL 2024 Main conference**] Awaiting the release of the camera-ready version of PDF.
 
 <figure>
     <img src="Images/main_figure.png" width="60%">  
@@ -16,6 +16,8 @@ AIR-Bench encompasses two dimensions: ***foundation*** and ***chat*** benchmarks
 
 <img src="Images/Chat_Example.png" width="60%">
 
+# LeaderBoard
+- [] We are eagerly looking forward to evaluating **gpt4o**（after the audio interface is made available）.
 
 # Download AIR-Bench
 Refer to the issue.
@@ -38,6 +40,9 @@ We provide a script that can batch call GPT, you only need to do one thing: repl
 `python Inference_Chat.py`
 ### Calculate score on Chat Benchmark
 `python score_chat.py`
+
+# License
+AIR-Bench is released under Apache License Version 2.0.
 
 # Citing
 If you find this repository helpful, please consider citing it:  
