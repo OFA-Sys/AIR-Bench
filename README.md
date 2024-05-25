@@ -1,6 +1,7 @@
 # AIR-Bench: Benchmarking Large Audio-Language Models via Generative Comprehension
 Official repository of AIR-Bench: Benchmarking Large Audio-Language Models via Generative Comprehension  
-[Arxiv link](https://arxiv.org/pdf/2402.07729.pdf)
+[Arxiv link](https://arxiv.org/pdf/2402.07729.pdf) https://arxiv.org/pdf/2402.07729.pdf
+[ACL 2024 Main conference] Awaiting the release of the camera-ready version of PDF.
 
 <figure>
     <img src="Images/main_figure.png" width="60%">  
