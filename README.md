@@ -17,7 +17,7 @@ AIR-Bench encompasses two dimensions: ***foundation*** and ***chat*** benchmarks
 <img src="Images/Chat_Example.png" width="60%">
 
 # LeaderBoard
-- [] We are eagerly looking forward to evaluating **gpt4o**（after the audio interface is made available）.
+- []We are eagerly looking forward to evaluating **gpt4o**（after the audio interface is made available）.
 
 # Download AIR-Bench
 Refer to the issue.
