@@ -17,7 +17,8 @@ AIR-Bench encompasses two dimensions: ***foundation*** and ***chat*** benchmarks
 <img src="Images/Chat_Example.png" width="60%">
 
 # LeaderBoard
-We are eagerly looking forward to evaluating **gpt4o**（after the audio interface is made available).     
+- We are eagerly looking forward to evaluating **gpt4o**（after the audio interface is made available).   
+## Chat LeaderBoard
 | Rank | Categories       | Speech | Sound | Music  | Mixed Audio | Average |
 |------|------------------|--------|-------|--------|-------------|---------|
 | 🏅   | Qwen-Audio-Turbo | 7.04   | 6.59  | **5.98** | 5.77        | **6.34**|
@@ -29,6 +30,8 @@ We are eagerly looking forward to evaluating **gpt4o**（after the audio interfa
 | 7    | SpeechGPT        | 1.57   | 0.95  | 0.95   | 1.14        | 1.15    |
 | 8    | Macaw-LLM        | 0.97   | 1.01  | 0.91   | 1.00        | 1.01    |
 |      | Whisper+GPT 4    | **7.54** | /    | /      | /           | /       |
+## Foundation Leaderboard
+
 
 # Download AIR-Bench
 Please refer to the issue.
