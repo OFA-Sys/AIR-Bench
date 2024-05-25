@@ -31,6 +31,7 @@ AIR-Bench encompasses two dimensions: ***foundation*** and ***chat*** benchmarks
 | 8    |     Macaw-LLM    |    32.2%   |   30.1%   |   29.7%   |   30.7%   |   |   0.97   |   1.01   |   0.91   |     1.00    |   1.01   |
 |      |   Whisper+GPT 4  |    53.6%   |     /     |     /     |     /     |   | **7.54** |     /    |     /    |      /      |     /    |
 
+
 # Download AIR-Bench
 Please refer to the issue.
 
