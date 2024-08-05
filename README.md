@@ -18,7 +18,6 @@ AIR-Bench encompasses two dimensions: ***foundation*** and ***chat*** benchmarks
 
 # LeaderBoard
 - Welcome to submit **your LALM** results to issue or directly email qyang1021@zju.edu.cn. We will update the ranking list
-- We are eagerly looking forward to evaluating **gpt4o**（after the audio interface is made available).   
 - At present, the scoring model of our automated evaluation framework is: gpt-4-0125-preview
 
 ## Chat LeaderBoard
@@ -81,6 +80,8 @@ We provide a script that can batch call GPT, you only need to do one thing: repl
 `python Inference_Chat.py`
 ### Calculate score on Chat Benchmark
 `python score_chat.py`
+### Note
+The final score is the average of the model prediction scores (remember to swap the positions of answer_gt and model prediction and then calculate the final score).
 
 # License
 AIR-Bench is released under Apache License Version 2.0.
