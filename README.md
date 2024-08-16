@@ -1,6 +1,6 @@
 # AIR-Bench: Benchmarking Large Audio-Language Models via Generative Comprehension
 [Arxiv link](https://arxiv.org/pdf/2402.07729.pdf) https://arxiv.org/pdf/2402.07729.pdf   
-[**ACL 2024 Main conference**] Awaiting the release of the camera-ready version of PDF.
+[**ACL 2024 Main conference**] https://aclanthology.org/2024.acl-long.109.pdf
 
 <figure>
     <img src="Images/main_figure.png" width="60%">  
