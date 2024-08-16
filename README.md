@@ -78,10 +78,12 @@ We provide a script that can batch call GPT, you only need to do one thing: repl
 ## Step2: Evaluate on Chat Benchmark
 ### Inference your model on Chat Benchmark
 `python Inference_Chat.py`
-### Calculate score on Chat Benchmark
+### Calculate gpt score on Chat Benchmark
 `python score_chat.py`
 ### Note
 The final score is the average of the model prediction scores (remember to swap the positions of answer_gt and model prediction and then calculate the final score).
+### Merge score 
+Summarize the scores on the chat dataset as the final score. See cal_score.py for the simple code provided.
 
 # License
 AIR-Bench is released under Apache License Version 2.0.
