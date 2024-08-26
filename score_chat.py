@@ -38,9 +38,9 @@ def load_file2list(path):
 
 def mit_openai_api(**kwargs):
     if not os.environ.get('MIT_SPIDER_TOKEN', None):
-        print("NO MIT_SPIDER_TOKEN FOUND，please set export MIT_SPIDER_TOKEN=<YOUR TOKEN>")
+        print("NO MIT_SPIDER_TOKEN FOUND, please set export MIT_SPIDER_TOKEN=<YOUR TOKEN>")
     if not os.environ.get('MIT_SPIDER_URL', None):
-        print("NO MIT_SPIDER_URL FOUND，please set export MIT_SPIDER_URL=<YOUR URL>")
+        print("NO MIT_SPIDER_URL FOUND, please set export MIT_SPIDER_URL=<YOUR URL>")
     mit_spider_config = {
         "url": os.environ.get("MIT_SPIDER_URL", None),
         "header": {
