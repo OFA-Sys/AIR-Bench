@@ -83,7 +83,7 @@ We provide a script that can batch call GPT, you only need to do one thing: repl
 ### Note
 The final score is the average of the model prediction scores (remember to swap the positions of answer_gt and model prediction and then calculate the final score).
 ### Merge score 
-Summarize the scores on the chat dataset as the final score. See cal_score.py for the simple code provided.
+Summarize the scores on the chat dataset as the final score. See cal_score.py for the simple code provided. Note that in the `cal_score` script, the average of `'speech_and_sound'` and `'speech_and_music'` is the final result of `mixed-audio`.
 
 # License
 AIR-Bench is released under Apache License Version 2.0.
